@@ -1,11 +1,19 @@
-import solutions.Solution5ConsecutiveArray;
+import solutions.Solution7SquareSubmatrix;
 
 public class Main {
 
     public static void main(String[] args) {
-        //consecutive([4, 2, 1, 6, 5]) = 3, [4, 5, 6]
-        int[] array = new int[]{4, 2, 1, 6, 5};
-        int res = Solution5ConsecutiveArray.consecutiveSet(array);
-        System.out.println(res);
+            /*
+    subarray([1, 1, 1, 0]
+             [1, 1, 1, 1]
+             [1, 1, 0, 0]) = 2
+     */
+        int[][] matrix = new int[][]{
+                {0, 1, 1, 1},
+                {1, 1, 1, 1},
+                {1, 1, 1, 1}
+        };
+        int submatrix = Solution7SquareSubmatrix.submatrix(matrix);
+        System.out.println(submatrix);
     }
 }
