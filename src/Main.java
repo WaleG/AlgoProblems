@@ -1,14 +1,11 @@
-import solutions.Solution3MatrixProduct;
+import solutions.Solution5ConsecutiveArray;
 
 public class Main {
 
     public static void main(String[] args) {
-        int[][] matrix = new int[][]{
-                {1, 2, 3},
-                {4, 5, -6},
-                {-7, 8, 9}
-        };
-        int res = Solution3MatrixProduct.matrixProductDP(matrix);
+        //consecutive([4, 2, 1, 6, 5]) = 3, [4, 5, 6]
+        int[] array = new int[]{4, 2, 1, 6, 5};
+        int res = Solution5ConsecutiveArray.consecutiveSet(array);
         System.out.println(res);
     }
 }
