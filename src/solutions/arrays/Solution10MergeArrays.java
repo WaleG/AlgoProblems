@@ -1,4 +1,4 @@
-package solutions;
+package solutions.arrays;
 
 /**
  * @author Valentyn.Moliakov

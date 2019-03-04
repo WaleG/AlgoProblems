@@ -1,12 +1,9 @@
-import solutions.Solution11ZeroSumSubarray;
-
-import java.util.Arrays;
+import static leetcode._327CountRangeSum.countRangeSum;
 
 public class Main {
 
     public static void main(String[] args) {
-        int[] A = new int[]{1, 2, 3, -6};
-        int[] zeroSum = Solution11ZeroSumSubarray.subArray(A);
-        System.out.println(Arrays.toString(zeroSum));
+        int sum = countRangeSum(new int[]{-2, 5, -1}, -2, 2);
+        System.out.println(sum);
     }
 }

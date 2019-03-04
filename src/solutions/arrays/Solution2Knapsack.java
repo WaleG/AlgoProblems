@@ -1,4 +1,4 @@
-package solutions;
+package solutions.arrays;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -6,7 +6,7 @@ import java.util.Map;
 /**
  * @author Valentyn.Moliakov
  */
-public class Solution201Knapsack {
+public class Solution2Knapsack {
 
     public static class Item {
         int weight;
