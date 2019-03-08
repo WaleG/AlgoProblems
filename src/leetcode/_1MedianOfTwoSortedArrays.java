@@ -1,4 +1,4 @@
-package google;
+package leetcode;
 
 /**
  * @author Valentyn.Moliakov
