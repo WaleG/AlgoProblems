@@ -21,7 +21,7 @@ public class Solution8MergeKSortedArrays {
 
         @Override
         public int compareTo(QueueNode o) {
-            return Integer.compare(value, 0);
+            return Integer.compare(value, o.value);
         }
     }
 
