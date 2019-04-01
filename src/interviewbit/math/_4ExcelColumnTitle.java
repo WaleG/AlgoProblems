@@ -1,6 +1,6 @@
 package interviewbit.math;
 
-public class _3ExcelColumnTitle {
+public class _4ExcelColumnTitle {
     public String convertToTitle(int A) {
         int base = 26;
         int start = 1;
