@@ -1,9 +1,18 @@
-import static leetcode._327CountRangeSum.countRangeSum;
+import solutions.stack.Solution29StackFromQueues.Stack;
 
 public class Main {
 
     public static void main(String[] args) {
-        int sum = countRangeSum(new int[]{-2, 5, -1}, -2, 2);
-        System.out.println(sum);
+        Stack<Integer> stack = new Stack<>();
+        stack.push(1);
+        stack.push(2);
+        stack.push(4);
+        System.out.println(stack.pop());
+        System.out.println(stack.pop());
+        stack.push(5);
+        stack.push(3);
+        System.out.println(stack.pop());
+        stack.push(1);
+        System.out.println(stack.pop());
     }
 }
